@@ -28,7 +28,7 @@ const template = () => `
             src="https://cdn-icons-png.flaticon.com/512/3274/3274156.png"
             alt="Juega al ahorcado!"
           />
-          <h2>Ahorcado</h2>
+          <h2>AHORCADO</h2>
         </figure>
       </li>
     </ul>
