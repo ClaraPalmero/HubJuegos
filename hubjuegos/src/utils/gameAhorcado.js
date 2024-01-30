@@ -90,16 +90,14 @@ export const click_letras = (event) => {
     document.getElementById("resultado").innerHTML = "BIEEEEN!! HAS GANADO!!";
     game_over();
   }
-  console.log(
-    "la letra " + letra + " en la palabra " + palabra + " ¿existe?: " + acierto
-  );
 };
 
+//?---4--- función Game Over --------------- todas las letras desactivadas
 export const game_over = () => {
-  const btn_letras = document.querySelectorAll("#letras button");
+  const btn_letras = document.querySelectorAll("#letras button"); // es un elemento de mi Html y siempre que lo quiero usar tengo que llamarlo
   for (let i = 0; i < btn_letras.length; i++) {
-    btn_letras[i].disabled = true;
+    btn_letras[i].disabled = true; // pasa por todas las letras y me las va desactivando
   }
-  const btn = document.getElementById("jugar");
-  btn.disabled = false;
+  const btn = document.getElementById("jugar"); // llamo al elemento
+  btn.disabled = false; // y lo desabilito
 };
