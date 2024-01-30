@@ -4,7 +4,7 @@ body {
     margin: 0;
        background-size: cover;
        font-family: 'Carter One', Arial, Helvetica, sans-serif;
-        min-height: 100vh;  
+       min-height: 100vh;  
 }
 
 h1 {
@@ -35,9 +35,11 @@ main {
 }
 
 #imagen {
-  
-    width: 200px;
-   }
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
 
 #jugar {
     width: 100px;
@@ -53,12 +55,37 @@ main {
 
 #palabra_a_adivinar span {
  
-    vertical-align: bottom;
-  
+    vertical-align: bottom;  
     font-size: 2em;
     border-bottom: 2px solid black;
+    width: 30px;
     text-align: center;
     margin-right: 6px;
     display: inline-block;
-   
-}
+   }
+
+
+/* ------------------------ */
+ @media (min-width: 320px) and (max-width: 479px) {
+     #imagen {
+        width: 130px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+     }
+    }
+/*-----------------------------------------------*/
+
+
+  @media (min-width: 320px) and (max-width: 479px) {
+    #palabra_a_adivinar span {
+    
+            vertical-align: bottom;
+            font-size: 2em;
+            border-bottom: 2px solid black;
+            width: 10px;
+            text-align: center;
+            margin-right: 6px;
+            display: inline-block;
+        }
+  }

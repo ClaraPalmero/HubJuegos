@@ -4,8 +4,7 @@
     display: flex;
     /*esto es para que me ponga las letras una al lado de otra (los hijos al lado de los hijos) pero no le va a importar que se haya acabado el contenedor.*/ 
     flex-wrap: wrap;
-    display: flex;    
-    gap: 9px;/
+       gap: 9px;
 }
 
 #letras button {
@@ -15,3 +14,29 @@
     text-align: center; /*le estoy diciendo que el contenido de mi boton (es decir, la letra) este centrado horizontalmente*/
 }
 
+/*-------------------------------------*/
+
+@media (min-width: 320px) and (max-width: 479px) {
+#letras {
+        flex-direction: row;
+        margin-top: 20px;
+        display: flex;
+        flex-wrap: wrap;       
+        gap: 9px;
+    }
+}
+
+
+/*-----------------------------------*/
+@media (min-width: 320px) and (max-width: 479px) {
+    #letras button {
+           
+            width: 28px;           
+            padding: 6px 0;          
+            text-align: center;
+            display: inline-block;
+         
+           
+           
+        }
+   }
