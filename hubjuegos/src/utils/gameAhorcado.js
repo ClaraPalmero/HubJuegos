@@ -38,7 +38,6 @@ export const iniciar = (event) => {
   const cant_letras = getInfoJuego().palabrita.length; // esta constante nos trae la información del juego, en este caso la clave palabrita y sus letras
 
   const btn_letras = document.querySelectorAll("#letras button"); // llamo al elemento de html porque o voy a usar en la siguiente linea
-
   for (let i = 0; i < btn_letras.length; i++) {
     // para habilitar las letras al inicio
     btn_letras[i].disabled = false; // [i] es para que se vaya viendo la posición de cda letra

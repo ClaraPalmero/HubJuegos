@@ -16,7 +16,7 @@ const template = () => `
       <div id="letras"></div> 
 </div>`;
 
-//!PINTO MI TEMPLETE EN EL HTML. Para eso le digo que me lo meta en app con el querySelector y con app.innerHTMl (esto porque es texto) le estoy diciendo que me meta el templete al HTML
+//? pinto mi template en el html. Para eso le digo que me lo meta en app con el querySelector y con app.innerHTMl (esto porque es texto) le estoy diciendo que me meta el templete al HTML
 
 const listeners = () => {
   const btn = document.getElementById("jugar");
@@ -25,7 +25,7 @@ const listeners = () => {
 
 export const PrintsGameTemplate = () => {
   document.querySelector("main").innerHTML = template();
-  PrintBotonLetras();
-  listeners();
-  game_over();
+  PrintBotonLetras(); // lo llamamos pq el template pertenece a letras
+  listeners(); // traemos los escuchadores
+  game_over(); //
 };
