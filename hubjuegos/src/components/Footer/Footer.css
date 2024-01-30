@@ -15,5 +15,7 @@ footer {
 
     & span {
         color: white;
+        font-size: x-small;
+        
     }
 }

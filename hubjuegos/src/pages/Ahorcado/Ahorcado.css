@@ -7,18 +7,17 @@ body {
        min-height: 100vh;  
 }
 
-h1 {
-   
+h1 {   
     margin: 0;
       color: white;   
 }
 
 main {   
-    width: 80%;   
+    width: 100%;   
     margin: auto;
     /*le digo que quiero que este centrado en el eje horizontal*/
     padding: 20px;
-    background: rgba(255,255,255,.7);
+    background: rgba(255, 255, 255, 0.7);
     display: flex;
     gap: 30px;
     /*le estoy diciendo que entre objeto y objeto tenga un espacio de 30px*/
@@ -35,10 +34,8 @@ main {
 }
 
 #imagen {
-    width: 20%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  
+    width: 200px;
     }
 
 #jugar {
@@ -46,7 +43,7 @@ main {
 }
 
 #resultado {
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 #palabra_a_adivinar {
@@ -69,7 +66,7 @@ main {
  @media (min-width: 320px) and (max-width: 479px) {
      #imagen {
         width: 130px;
-            display: block;
+        display: block;
             margin-left: auto;
             margin-right: auto;
      }
