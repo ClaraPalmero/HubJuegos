@@ -1,10 +1,10 @@
 export const palabras = [
-  "mariposa" /* 0 */,
-  "reino" /* 1 */,
-  "ruiseñor" /* 2 */,
-  "castillo" /* 3 */,
-  "cantimplora" /* 4 */,
-  "amapola" /* 5 */,
-  "silencio" /* 6 */,
-  "cosquillas" /* 7 */,
+  "lombriz" /* 0 */,
+  "cascada" /* 1 */,
+  "javascript" /* 2 */,
+  "mansión" /* 3 */,
+  "terremoto" /* 4 */,
+  "tulipán" /* 5 */,
+  "jirafa" /* 6 */,
+  "templo" /* 7 */,
 ];
