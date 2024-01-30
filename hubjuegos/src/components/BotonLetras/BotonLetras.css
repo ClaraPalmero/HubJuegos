@@ -1,0 +1,17 @@
+#letras {
+    margin-top: 30px;
+    /*margen*/ 
+    display: flex;
+    /*esto es para que me ponga las letras una al lado de otra (los hijos al lado de los hijos) pero no le va a importar que se haya acabado el contenedor.*/ 
+    flex-wrap: wrap;
+    display: flex;    
+    gap: 9px;/
+}
+
+#letras button {
+    /*formato de los botones de las letras*/ 
+    width: 28px; /*le estoy diciendo que tenga un hancho de 28 px */ 
+    padding: 6px 0; /*le estoy diciendo que quiero 6 pixeles arriba y abajo de mis letras (para que me lo haga mas o menos cuadrado y las letras no me queden pegadas al boton) y el 0 me indica que no quiero espacio ni a la izquierda ni a la derecha de la letra*/
+    text-align: center; /*le estoy diciendo que el contenido de mi boton (es decir, la letra) este centrado horizontalmente*/
+}
+

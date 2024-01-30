@@ -1,4 +1,4 @@
-import { getUserData, setUserData } from "../../global/data/state/globalState";
+import { getUserData, setUserData } from "../../global/state/globalState";
 import "./CardPokemons.css";
 
 export const CardPokemons = (data) => {

@@ -23,12 +23,12 @@ const template = () => `
         </figure>
       </li>
       <li>
-        <figure>
+        <figure id="navigateAhorcado">
           <img
-            src="https://res.cloudinary.com/dq186ej4c/image/upload/v1689761735/6168776_kfna36.png"
-            alt="go to memory game"
+            src="https://cdn-icons-png.flaticon.com/512/3274/3274156.png"
+            alt="Juega al ahorcado!"
           />
-          <h2>MEMORY GAME</h2>
+          <h2>Ahorcado</h2>
         </figure>
       </li>
     </ul>
@@ -39,6 +39,11 @@ const addEventListeners = () => {
   const navigatePokemon = document.getElementById("navigatePokemon");
   navigatePokemon.addEventListener("click", () => {
     initControler("Pokemon");
+  });
+
+  const navigateAhorcado = document.getElementById("navigateAhorcado"); // cuando haga click en el juego del ahorcado nos deja entrar en su página
+  navigateAhorcado.addEventListener("click", () => {
+    initControler("Ahorcado");
   });
 };
 

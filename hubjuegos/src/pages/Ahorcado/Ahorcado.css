@@ -1,0 +1,64 @@
+/*@import url('https://fonts.googleapis.com/css2? family= Carter+One & display=swap');*/
+
+body {
+    margin: 0;
+       background-size: cover;
+       font-family: 'Carter One', Arial, Helvetica, sans-serif;
+        min-height: 100vh;  
+}
+
+h1 {
+   
+    margin: 0;
+      color: white;   
+}
+
+main {   
+    width: 80%;   
+    margin: auto;
+    /*le digo que quiero que este centrado en el eje horizontal*/
+    padding: 20px;
+    background: rgba(255,255,255,.7);
+    display: flex;
+    gap: 30px;
+    /*le estoy diciendo que entre objeto y objeto tenga un espacio de 30px*/
+}
+
+.game-container {
+    display: flex;
+}
+
+.game {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#imagen {
+  
+    width: 200px;
+   }
+
+#jugar {
+    width: 100px;
+}
+
+#resultado {
+    margin-top: 10px;
+}
+
+#palabra_a_adivinar {
+    height: 3em;
+}
+
+#palabra_a_adivinar span {
+ 
+    vertical-align: bottom;
+  
+    font-size: 2em;
+    border-bottom: 2px solid black;
+    text-align: center;
+    margin-right: 6px;
+    display: inline-block;
+   
+}

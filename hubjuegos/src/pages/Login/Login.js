@@ -1,4 +1,4 @@
-import { setUser, setUserData } from "../../global/data/state/globalState";
+import { setUser, setUserData } from "../../global/state/globalState";
 import { initControler } from "../../utils/route";
 import "./Login.css";
 const template = () => `

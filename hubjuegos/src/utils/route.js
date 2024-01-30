@@ -1,5 +1,10 @@
-import { getUser } from "../global/data/state/globalState";
-import { Login, PrintPokemonPage, printTemplateDashboard } from "../pages";
+import { getUser } from "../global/state/globalState";
+import {
+  Login,
+  PrintsGameTemplate, // importamos el print para que el switch lo pueda leer
+  PrintPokemonPage,
+  printTemplateDashboard,
+} from "../pages";
 
 export const initControler = (pagesRender) => {
   switch (pagesRender) {
@@ -18,8 +23,8 @@ export const initControler = (pagesRender) => {
     case "Login":
       Login();
       break;
-    case "Memory":
-      "Memory()";
+    case "Ahorcado":
+      PrintsGameTemplate();
       break;
   }
 };

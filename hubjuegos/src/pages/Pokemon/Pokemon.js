@@ -4,7 +4,7 @@ import {
   PrintButton,
   PrintSpinner,
 } from "../../components";
-import { getData } from "../../global/data/state/globalState";
+import { getData } from "../../global/state/globalState";
 import { Paginacion, filterPokemon } from "../../utils";
 import "./Pokemon.css";
 const template = () => `

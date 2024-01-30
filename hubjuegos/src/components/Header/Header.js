@@ -1,4 +1,4 @@
-import { getUser } from "../../global/data/state/globalState";
+import { getUser } from "../../global/state/globalState";
 import { changeColorRGB } from "../../utils";
 import { initControler } from "../../utils/route";
 import "./Header.css";
@@ -16,12 +16,12 @@ const template = () => `
       id="changeColor"
     />
     <img
-      src="https://res.cloudinary.com/dq186ej4c/image/upload/v1682685633/home_nekvs0.png"
+      src="https://cdn.icon-icons.com/icons2/197/PNG/128/gamecontroller_23912.png"
       alt=" navigate to home app"
       id="buttonDashboard"
     />
     <img
-      src="https://res.cloudinary.com/dq186ej4c/image/upload/v1682679055/logout_arz0gw.png"
+      src="https://cdn.icon-icons.com/icons2/1496/PNG/512/systemshutdown_103390.png"
       alt="logout"
       id="buttonLogout"
     />

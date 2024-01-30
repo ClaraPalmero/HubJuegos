@@ -1,4 +1,4 @@
-import { setData } from "../global/data/state/globalState";
+import { setData } from "../global/state/globalState";
 import { getByIdPokemon } from "../services/pokemon.service";
 import { Paginacion } from "./paginacion";
 import { typePokemon } from "./typePokemon";
